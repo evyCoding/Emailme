@@ -1,0 +1,40 @@
+
+* {
+    background-color: white;
+    color: black;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.rights {
+    text-align: center;
+    color: #5AB2FF;
+}
+
+.email_inp {
+    border-radius: 10px;
+    border-color: #5AB2FF;
+    line-height: 2.75;
+}
+
+.send_inp {
+  background: linear-gradient(to bottom right, #5AB2FF, #FFA62F);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.75;
+  padding: 0 1rem;
+  text-align: center;
+  margin-left: 25px;
+}
