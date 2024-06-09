@@ -14,7 +14,7 @@ msg = MIMEMultipart()
 msg['From'] = from_email
 msg['To'] = to_email
 msg['Subject'] = 'Test Emailme'
-body = 'This is a test email sent from Python.'
+body = 'This is a test email sent from Python'
 
 try:
     # Establish a connection to the SMTP server
