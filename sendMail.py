@@ -13,9 +13,9 @@ to_email = 'forcontact.we@gmail.com'
 msg = MIMEMultipart()
 msg['From'] = from_email
 msg['To'] = to_email
-msg['Subject'] = 'Test Emailme'
-body = 'This is a test email sent from Python'
-
+msg['Subject'] = 'khadija sammoudi Daily email'
+Body = "\nhello this is a test for the body if it's showen or not"
+msg.attach(MIMEText(Body, 'plain'))
 try:
     # Establish a connection to the SMTP server
     server = smtplib.SMTP(smtp_server, smtp_port)
