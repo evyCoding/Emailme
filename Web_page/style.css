@@ -8,40 +8,33 @@
     font-style: normal;
 }
 
-.logo {
-    max-width: 100px;
-    height: auto;
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.rights {
+
+.navbar li nav-pic {
+    height: 80px;
+    margin-right: 30px;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
     text-align: center;
-    color: #5AB2FF;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
-.email_inp {
-    border-radius: 10px;
-    border-color: #5AB2FF;
-    line-height: 2.75;
-    margin-left: 27px;
-    margin-bottom: 10px;
+.navbar li a:hover {
+    background-color: #FFA62F;
+    color: white;
 }
 
-.name_inp {
-    border-radius: 10px;
-    border-color: #5AB2FF;
-    line-height: 2.75;
-}
-
-.send_inp {
-  background: linear-gradient(to bottom right, #5AB2FF, #FFA62F);
-  border: 0;
-  border-radius: 12px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 16px;
-  line-height: 2.75;
-  padding: 0 1rem;
-  text-align: center;
-  margin-left: 5px;
-}
