@@ -7,23 +7,56 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, web development">
     <meta name="author" content="Your Name">
     <title>Emailme</title>
+    <link rel="icon" href="./pictures/image(1).png" type="image/x-icon" style="border-radius: 50%;">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="navigate">
             <nav>
+                <a href="#"><img src="pictures/logo.png" alt="logo" class="logo"></a>
                 <ul class="navbar">
-                    <li><a href="#"><img src="pictures/logobg.png" alt="logo" class="logo"></a></li>
-                    <li class="li1"><a href="#">What is Emailme?</a></li>
-                    <li class="li2"><a href="#">Languages we support?</a></li>
+                    <li class="li1"><a href="#page1">What is Emailme?</a></li>
+                    <li class="li2"><a href="#page2">Languages we support?</a></li>
                     <li class="li3"><a href="#">Try Now!</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="page", id="page1">
+        <h1 class="bigLInes">Write More, Learn More</h1>
+    </div>
+    <div class="arrow" id="arrow"><a href="#page1" class="arrow">&#10549;</a></div>
+    <div class="page" id="page1">
+        <div class="wrapper">
+            <h1>What is Emailme ?</h1>
+        </div>  
+        <p class="text">
+            EmailMe is an innovative app designed to inspire teenagers to embrace the benefits of journaling while mastering a new language. By selecting their language of interest on our website, users embark on a personalized learning journey. Each week, they receive an intriguing question via email, prompting them to reflect and respond in their chosen language, enhancing their writing and critical thinking skills. At the week's end, users receive a comprehensive summary email tracking their progress, highlighting achievements, and offering tailored suggestions to elevate their language proficiency. With EmailMe, journaling becomes a dynamic educational tool, fostering personal growth and linguistic competence in a fun and structured way.
+        </p>
+    </div>
+    <div class="arrow" id="arrow"><a href="#page2" class="arrow">&#10549;</a></div>
+    <div class="page" id="page2">
+        <div class="wrapper">
+            <h1>Languages we support ?</h1>
+        </div>
+        <ul class="LangList">
+            <li class="liLang">
+                <button class="LangButton" role="button">English</button>
+            </li>
+            <li class="liLang">
+                <button class="LangButton" role="button">French</button>
+            </li>
+            <li class="liLang">
+                <button class="LangButton" role="button">Japanese</button>
+            </li>
+            <li class="liLang">
+                <button class="LangButton" role="button">Arabic</button>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>I love quotes :</h1>
+        <button onclick="doThing()">Get a quotes</button>
+        <em class="author">\n</em>
+
+    </body>
+    <script>
+        function doThing() {
+            console.log("doing the thing")
+            document.querySelector('.quote').innerHTML = "Loading....."
+            fetch("https://api.quotable.io/random").then(r => r.json()).then(data => {console.log(data)
+                document.querySelector('.quote').innerHTML = data.content
+                document.querySelector('.author').innerHTML = ('\n' + data.author)
+            })
+        }
+    </script>
+</html>
