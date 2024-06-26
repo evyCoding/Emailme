@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 
 body {
-    font-family: 'Red Hat Mono', monospace;
     background-color: white;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
@@ -39,6 +41,19 @@ nav {
     color: white;
     padding: 14px 20px;
     border-radius: 4px;
+    transition: 0.5s;
+}
+
+.li1 a:hover::after,
+.li2 a:hover::after,
+.li3 a:hover::after {
+    transition: 0.5s;
+}
+
+.li1 a:hover::before,
+.li2 a:hover::before,
+.li3 a:hover::before {
+    transition: 0.5s;
 }
 
 .logo {
@@ -81,6 +96,7 @@ nav {
 
 .arrow a:hover {
     color: #FFA62F;
+    transition: 0.5s;
 }
 
 
@@ -105,13 +121,11 @@ nav {
 
 .wrapper {
     text-align: center;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
 
     h1 {
-        color: #fff;
-        font-size: 92px;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-family: "Josefin Sans", sans-serif;
         background: linear-gradient(to right, #5AB2FF 50%, #FFA62F 60%);
         background-size: auto auto;
         background-clip: border-box;
@@ -122,6 +136,9 @@ nav {
         -webkit-text-fill-color: transparent;
         animation: textclip 5.5s linear infinite;
         display: inline-block;
+        font-family: "Playwrite IT Moderna", cursive;
+        font-optical-sizing: auto;
+        font-style: normal;
     }
 }
 
@@ -184,6 +201,7 @@ nav {
     transform: translate(5%, 20%);
     width: 110%;
     height: 110%;
+    transition: 0.5s;
 }
 
 .LangButton:hover::after {
@@ -191,6 +209,7 @@ nav {
     transform: translate(0, 0);
     width: 100%;
     height: 100%;
+    transition: 0.5s;
 }
 
 .LangButton:active::after {
@@ -210,4 +229,27 @@ nav {
     margin-right: 10px;
     margin-right: 115px;
     margin-left: 115px;
+}
+
+.question:hover {
+    text-shadow: 6px 6px 6px #5AB2FF;
+    transition: 0.5s;
+}
+
+.question {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.play-sound {
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-color: #5AB2FF;
+    margin-left: 50vw;
+    position: center;
+    top: 50%;
 }

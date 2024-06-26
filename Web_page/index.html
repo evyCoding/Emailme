@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad8188302f.js" crossorigin="anonymous"></script>
     <meta name="description" content="A brief description of the page">
     <meta name="keywords" content="HTML, CSS, JavaScript, web development">
     <meta name="author" content="Your Name">
@@ -12,7 +13,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
 </head>
+<script>
+    let Lang = ""
+function En() {
+    console.log("Translating")
+    Lang = "English"
+    document.querySelector('.question').innerHTML = "How Was Your Day ?"
+}
+function Fr() {
+    console.log("Translating")
+    Lang = "French"
+    document.querySelector('.question').innerHTML = "Comment s'est passée ta journée ?"
+}
+function Jp() {
+    console.log("Translating")
+    Lang = "Japanese"
+    document.querySelector('.question').innerHTML = "あなたの一日はどうでした ?"
+    
+}
+function Ar() {
+    console.log("Translating")
+    Lang = "Arabic"
+    document.querySelector('.question').innerHTML = "كيف كان يومك ؟"
+}
+function Playsounds() {
+    if(Lang == "English") {
+        document.getElementById('play-sound').addEventListener('click', function() {
+            var sound = document.getElementById('soundEn');
+            sound.play();
+        });
+    }
+    if(Lang == "French") {
+        document.getElementById('play-sound').addEventListener('click', function() {
+            var sound = document.getElementById('soundFr');
+            sound.play();
+        });
+    }
+    if(Lang == "Japanese") {
+        document.getElementById('play-sound').addEventListener('click', function() {
+            var sound = document.getElementById('soundJp');
+            sound.play();
+        });
+    }
+    if(Lang == "Arabic") {
+        document.getElementById('play-sound').addEventListener('click', function() {
+            var sound = document.getElementById('soundAr');
+            sound.play();
+        });
+    }
+}
+</script>
 <body>
     <header>
         <div class="navigate">
@@ -26,7 +80,7 @@
             </nav>
         </div>
     </header>
-    <div class="page", id="page1">
+    <div class="page">
         <h1 class="bigLInes">Write More, Learn More</h1>
     </div>
     <div class="arrow" id="arrow"><a href="#page1" class="arrow">&#10549;</a></div>
@@ -44,19 +98,26 @@
             <h1>Languages we support ?</h1>
         </div>
         <ul class="LangList">
-            <li class="liLang">
+            <li class="liLang" onclick="En()">
                 <button class="LangButton" role="button">English</button>
             </li>
-            <li class="liLang">
+            <li class="liLang" onclick="Fr()">
                 <button class="LangButton" role="button">French</button>
             </li>
-            <li class="liLang">
+            <li class="liLang" onclick="Jp()">
                 <button class="LangButton" role="button">Japanese</button>
             </li>
-            <li class="liLang">
+            <li class="liLang" onclick="Ar()">
                 <button class="LangButton" role="button">Arabic</button>
             </li>
         </ul>
+        <div class="buttoncont">
+            <h1 class="question"></h1>
+            <audio class="soundEn" id="soundEn" src="./Audio/How Was Your Day .wav"></audio>
+            <audio class="soundFr" id="soundFr" src="./Audio/Comment s est passée.wav"></audio>
+            <audio class="soundJp" id="soundJp" src="./Audio/あなたの一日はどうでした.wav"></audio>
+            <audio class="soundAr" id="soundAr" src="./Audio/كيف كان يومك .wav"></audio>
+        </div>
     </div>
 </body>
 </html>
