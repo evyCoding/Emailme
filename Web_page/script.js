@@ -31,21 +31,52 @@ function Ar() {
     });
 }
 
+// Functions to add Documents to the DataBase
+
+async function documentExists(collection, query) {
+    try {
+        const document = await collection.findOne(query);
+        return document !== null;
+    } catch (err) {
+        console.error('Error occurred while checking for document existence:', err);
+        return false;
+    }
+}
+
+async function AddDocuments(collectionName, Email, Name, Lang) {
+        await client.connect();
+        console.log('Connected successfully to server');
+        const db = client.db(dbName);
+        const collection = db.collection(collectionName);
+        const exists = await documentExists(collection, { email: Email, Name: Name, Language: Lang});
+        if (exists) {
+            console.log('Document already exists in the collection.');
+        } else {
+            const insertResult = await collection.insertOne({
+                Name: Name,
+                email: Email,
+                Language: Lang,
+                answer: ""
+            });
+            console.log('Inserted document =>', insertResult);
+        }
+}
+
 function Submit() {
     var Email = document.getElementById('Email');
     var Name = document.getElementById('FullName');
     var Lang = document.getElementsByClassName('Lang');
-
     Email = Email.value;
     Name = Name.value;
-    for(var i = 0; i < Lang.length; i++) {
-        if(Lang[i].checked) {
+    for (var i = 0; i < Lang.length; i++) {
+        if (Lang[i].checked) {
             Lang = Lang[i].value;
             break;
         }
     }
-
-    console.log(Email);
-    console.log(Name);
-    console.log(Lang);
+    const { MongoClient } = require('mongodb');
+    const url = 'mongodb://127.0.0.1:27017/mongo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6';
+    const client = new MongoClient(url);
+    const dbName = 'Emailme';
+    AddDocuments("infos", Email, Name, Lang);
 }
