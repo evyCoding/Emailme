@@ -1,51 +1,51 @@
-let Lang = ""
-
 function En() {
     console.log("Translating")
-    Lang = "English"
     document.querySelector('.question').innerHTML = "How Was Your Day ?"
+    document.getElementById('buttonen').addEventListener('click', function () {
+        var sound = document.getElementById('soundEn');
+        sound.play();
+    });
 }
 function Fr() {
     console.log("Translating")
-    Lang = "French"
     document.querySelector('.question').innerHTML = "Comment s'est passée ta journée ?"
+    document.getElementById('buttonfr').addEventListener('click', function () {
+        var sound = document.getElementById('soundFr');
+        sound.play();
+    });
 }
 function Jp() {
     console.log("Translating")
-    Lang = "Japanese"
     document.querySelector('.question').innerHTML = "あなたの一日はどうでした ?"
+    document.getElementById('buttonjp').addEventListener('click', function () {
+        var sound = document.getElementById('soundJp');
+        sound.play();
+    });
 }
 function Ar() {
     console.log("Translating")
-    Lang = "Arabic"
     document.querySelector('.question').innerHTML = "كيف كان يومك ؟"
+    document.getElementById('buttonar').addEventListener('click', function () {
+        var sound = document.getElementById('soundAr');
+        sound.play();
+    });
 }
-function Playsounds() {
-    if(Lang == "English") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundEn');
-            sound.play();
-        });
+
+function Submit() {
+    var Email = document.getElementById('Email');
+    var Name = document.getElementById('FullName');
+    var Lang = document.getElementsByClassName('Lang');
+
+    Email = Email.value;
+    Name = Name.value;
+    for(var i = 0; i < Lang.length; i++) {
+        if(Lang[i].checked) {
+            Lang = Lang[i].value;
+            break;
+        }
     }
-    if(Lang == "French") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundFr');
-            sound.play();
-        });
-    }
-    if(Lang == "Japanese") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundJp');
-            sound.play();
-        });
-    }
-    if(Lang == "Arabic") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundAr');
-            sound.play();
-        });
-    }
-    else {
-        document.querySelector('.question').innerHTML = "404"
-    }
+
+    console.log(Email);
+    console.log(Name);
+    console.log(Lang);
 }

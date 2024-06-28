@@ -253,3 +253,64 @@ nav {
     position: center;
     top: 50%;
 }
+
+.Trynow {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Email {
+    --x: 50%;
+	--y: 50%;
+	position: relative;
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	border-radius: 100px;
+	border: 2px solid transparent;
+	background: linear-gradient(#FFA62F, #FFA62F) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #FFA62F, #5AB2FF) border-box;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.FullName {
+    --x: 50%;
+	--y: 50%;
+	position: relative;
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+	border-radius: 100px;
+	border: 2px solid transparent;
+	background: linear-gradient(#FFA62F, #FFA62F) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #FFA62F, #5AB2FF) border-box;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.chooseLang {
+    --x: 50%;
+	--y: 50%;
+    display: inline-block;
+	position: relative;
+	appearance: none;
+	padding: 1em 2em;
+	color: white;
+	cursor: pointer;
+	outline: none;
+    border-radius: 25px;
+	border: 2px solid transparent;
+	background: linear-gradient(#FFA62F, #FFA62F) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #FFA62F, #5AB2FF) border-box;
+}
+
+.foot {
+background-color: #FFA62F;
+text-align: center;
+padding: 2em;
+color: white;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,57 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <script src="script.js"></script> 
 </head>
-<script>
-    let Lang = ""
-function En() {
-    console.log("Translating")
-    Lang = "English"
-    document.querySelector('.question').innerHTML = "How Was Your Day ?"
-}
-function Fr() {
-    console.log("Translating")
-    Lang = "French"
-    document.querySelector('.question').innerHTML = "Comment s'est passée ta journée ?"
-}
-function Jp() {
-    console.log("Translating")
-    Lang = "Japanese"
-    document.querySelector('.question').innerHTML = "あなたの一日はどうでした ?"
-    
-}
-function Ar() {
-    console.log("Translating")
-    Lang = "Arabic"
-    document.querySelector('.question').innerHTML = "كيف كان يومك ؟"
-}
-function Playsounds() {
-    if(Lang == "English") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundEn');
-            sound.play();
-        });
-    }
-    if(Lang == "French") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundFr');
-            sound.play();
-        });
-    }
-    if(Lang == "Japanese") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundJp');
-            sound.play();
-        });
-    }
-    if(Lang == "Arabic") {
-        document.getElementById('play-sound').addEventListener('click', function() {
-            var sound = document.getElementById('soundAr');
-            sound.play();
-        });
-    }
-}
-</script>
 <body>
     <header>
         <div class="navigate">
@@ -75,7 +27,7 @@ function Playsounds() {
                 <ul class="navbar">
                     <li class="li1"><a href="#page1">What is Emailme?</a></li>
                     <li class="li2"><a href="#page2">Languages we support?</a></li>
-                    <li class="li3"><a href="#">Try Now!</a></li>
+                    <li class="li3"><a href="#page3">Try Now!</a></li>
                 </ul>
             </nav>
         </div>
@@ -87,9 +39,15 @@ function Playsounds() {
     <div class="page" id="page1">
         <div class="wrapper">
             <h1>What is Emailme ?</h1>
-        </div>  
+        </div>
         <p class="text">
-            EmailMe is an innovative app designed to inspire teenagers to embrace the benefits of journaling while mastering a new language. By selecting their language of interest on our website, users embark on a personalized learning journey. Each week, they receive an intriguing question via email, prompting them to reflect and respond in their chosen language, enhancing their writing and critical thinking skills. At the week's end, users receive a comprehensive summary email tracking their progress, highlighting achievements, and offering tailored suggestions to elevate their language proficiency. With EmailMe, journaling becomes a dynamic educational tool, fostering personal growth and linguistic competence in a fun and structured way.
+            EmailMe is an innovative app designed to inspire teenagers to embrace the benefits of journaling while
+            mastering a new language. By selecting their language of interest on our website, users embark on a
+            personalized learning journey. Each week, they receive an intriguing question via email, prompting them to
+            reflect and respond in their chosen language, enhancing their writing and critical thinking skills. At the
+            week's end, users receive a comprehensive summary email tracking their progress, highlighting achievements,
+            and offering tailored suggestions to elevate their language proficiency. With EmailMe, journaling becomes a
+            dynamic educational tool, fostering personal growth and linguistic competence in a fun and structured way.
         </p>
     </div>
     <div class="arrow" id="arrow"><a href="#page2" class="arrow">&#10549;</a></div>
@@ -98,17 +56,17 @@ function Playsounds() {
             <h1>Languages we support ?</h1>
         </div>
         <ul class="LangList">
-            <li class="liLang" onclick="En()">
-                <button class="LangButton" role="button">English</button>
+            <li class="liLang">
+                <button class="LangButton" role="button" id="buttonen" onclick="En()">English</button>
             </li>
-            <li class="liLang" onclick="Fr()">
-                <button class="LangButton" role="button">French</button>
+            <li class="liLang">
+                <button class="LangButton" role="button" id="buttonfr" onclick="Fr()">French</button>
             </li>
-            <li class="liLang" onclick="Jp()">
-                <button class="LangButton" role="button">Japanese</button>
+            <li class="liLang">
+                <button class="LangButton" role="button" id="buttonjp" onclick="Jp()">Japanese</button>
             </li>
-            <li class="liLang" onclick="Ar()">
-                <button class="LangButton" role="button">Arabic</button>
+            <li class="liLang">
+                <button class="LangButton" role="button" id="buttonar" onclick="Ar()">Arabic</button>
             </li>
         </ul>
         <div class="buttoncont">
@@ -119,5 +77,48 @@ function Playsounds() {
             <audio class="soundAr" id="soundAr" src="./Audio/كيف كان يومك .wav"></audio>
         </div>
     </div>
+    <div class="arrow" id="arrow"><a href="#page3" class="arrow">&#10549;</a></div>
+    <div class="page" id="page3">
+        <div class="wrapper">
+            <h1>Try Now !</h1>
+        </div>
+        <div class="Trynow" style="margin-bottom: 50px;">
+            <div>
+                <label>Email:</label>
+                <input type="text" class="Email" id="Email">
+            </div>
+            <div>
+                <label>Full Name:</label>
+                <input type="text" class="FullName" id="FullName">
+            </div>
+            <fieldset class="chooseLang">
+                <h1>Select Your Language:</h1>
+                <div>
+                    <input type="radio" id="English" name="oneuse" value="English" class="Lang"/>
+                    <label for="English">English</label>
+                </div>
+                <div>
+                    <input type="radio" id="French" name="oneuse" value="French" class="Lang"/>
+                    <label for="French">French</label>
+                </div>
+                <div>
+                    <input type="radio" id="Japanese" name="oneuse" value="Japanese" class="Lang"/>
+                    <label for="Japanese">Japanese</label>
+                </div>
+                <div>
+                    <input type="radio" id="Arabic" name="oneuse" value="Arabic" class="Lang"/>
+                    <label for="Arabic">Arabic</label>
+                </div>
+            </fieldset>
+            <div>
+                <button style="margin-top: 25px;" class="LangButton" role="button" id="buttonsub" onclick="Submit()">Submit</button>
+            </div>
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="foot">
+        <p>© 2024 Yhevu. All Right Reserved</p>
+    </div>
+</footer>
 </html>
