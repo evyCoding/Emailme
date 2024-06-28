@@ -21,7 +21,7 @@ def SendMail(Name, Email):
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = Name + ' Daily email'
-    Body = "What song gives you butterflies?"
+    Body = "What do you like about Hack club?"
     msg.attach(MIMEText(Body, 'plain'))
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
