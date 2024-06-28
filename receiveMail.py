@@ -3,29 +3,21 @@ import email
 from email.header import decode_header
 from writeAndReadMethods import *
 
-# Establish connection to the IMAP server
-imap = imaplib.IMAP4_SSL("imap.gmail.com")
-# Login to the server
-imap.login("emailme.po@gmail.com", "tzep izyb nvhi ryla")
 
-# Select the mailbox you want to check (inbox in this case)
+imap = imaplib.IMAP4_SSL("imap.gmail.com")
+imap.login("emailme.po@gmail.com", "tzep izyb nvhi ryla")
 imap.select("inbox")
 
-# Search for all emails in the selected mailbox
+
 status, messages = imap.search(None, "ALL")
 email_ids = messages[0].split()
 email_ids.reverse()
 
-# load the env variables
 load_dotenv()
-# set up the connection
 MONGO_URI = os.environ.get(
     'mongodb://127.0.0.1:27017/mongo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6')
-# select the database
 Client = MongoClient(MONGO_URI)
-# select the collection
 db = Client['Emailme']
-# select document
 cursor = db['infos']
 
 
