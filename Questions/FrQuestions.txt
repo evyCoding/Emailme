@@ -1,0 +1,365 @@
+Parlez-moi de votre journée d'aujourd'hui.
+Quelle est votre plus grande peur ?
+Quel est votre souvenir le plus précieux ?
+Décrivez votre endroit préféré dans le monde.
+Quelle est votre activité préférée lorsque vous avez du temps libre ?
+Parlez-moi d'un moment où vous avez pris une décision difficile.
+Quel est votre livre préféré et pourquoi ?
+Quelle est votre saison préférée ?
+Quel est votre plat préféré ?
+Décrivez une personne qui vous inspire et pourquoi.
+Quelle est votre plus grande réussite jusqu'à présent ?
+Décrivez une journée parfaite pour vous.
+Quel est votre film préféré et pourquoi ?
+Quel est votre rêve le plus fou ?
+Parlez-moi d'une leçon importante que vous avez apprise récemment.
+Quel est votre plus grand regret ?
+Décrivez un moment où vous avez ressenti un profond sentiment de bonheur.
+Quel est votre voyage le plus mémorable ?
+Quel est votre hobby préféré ?
+Parlez-moi d'une personne que vous admirez beaucoup.
+Quel est votre animal préféré et pourquoi ?
+Quel est votre style de musique préféré ?
+Décrivez une expérience récente qui vous a fait grandir.
+Quelle est votre couleur préférée ?
+Quel est votre lieu préféré dans votre ville ?
+Parlez-moi d'un objectif que vous souhaitez atteindre cette année.
+Quel est votre plus grand défi en ce moment ?
+Quel est le dernier livre que vous avez lu et comment l'avez-vous trouvé ?
+Quel est votre talent caché ?
+Décrivez une personne que vous avez rencontrée récemment et qui vous a marqué.
+Quelle est votre série télévisée préférée ?
+Quel est votre souvenir le plus drôle ?
+Quelle est votre saison préférée et pourquoi ?
+Décrivez une tradition familiale que vous aimez beaucoup.
+Quel est votre endroit préféré pour vous relaxer ?
+Parlez-moi d'un cours ou d'une compétence que vous aimeriez apprendre.
+Quel est votre restaurant préféré et pourquoi ?
+Quelle est votre fête préférée de l'année ?
+Parlez-moi d'une personne qui a eu une grande influence sur vous.
+Quel est votre rêve de carrière ?
+Quel est le dernier film que vous avez regardé et comment l'avez-vous trouvé ?
+Quel est votre passe-temps favori par temps de pluie ?
+Décrivez une journée où tout a semblé aller de travers.
+Quelle est votre chanson préférée en ce moment ?
+Parlez-moi d'un endroit que vous aimeriez visiter.
+Quel est votre sport préféré ?
+Décrivez une période difficile que vous avez traversée et comment vous en êtes sorti(e).
+Quel est votre plus grand espoir pour l'avenir ?
+Quel est votre mois préféré de l'année ?
+Parlez-moi d'un livre qui vous a changé la vie.
+Quelle est votre émission de télé-réalité préférée ?
+Quel est votre endroit préféré pour passer les vacances ?
+Parlez-moi d'une qualité que vous admirez chez les autres.
+Quel est votre dessert préféré ?
+Décrivez un moment où vous avez pris une décision risquée.
+Quelle est votre plus grande source de motivation ?
+Quel est votre souvenir d'enfance le plus cher ?
+Parlez-moi d'une habitude que vous aimeriez changer.
+Quelle est votre célébration préférée et pourquoi ?
+Quel est votre instrument de musique préféré ?
+Décrivez un moment où vous avez surmonté un obstacle important.
+Quelle est votre saison de lecture préférée ?
+Quel est votre plat traditionnel préféré ?
+Parlez-moi d'une personne que vous aimez beaucoup.
+Quel est votre endroit préféré pour regarder le coucher de soleil ?
+Décrivez une personne que vous connaissez depuis longtemps.
+Quelle est votre plus grande ambition ?
+Quel est votre jeu de société préféré ?
+Parlez-moi d'un cadeau mémorable que vous avez reçu.
+Quel est votre endroit préféré pour faire du shopping ?
+Quelle est votre saison de l'année préférée et pourquoi ?
+Décrivez une situation où vous avez dû faire preuve de patience.
+Quel est votre sujet de conversation favori ?
+Parlez-moi d'un moment où vous avez eu le trac.
+Quel est votre rêve de voyage ultime ?
+Décrivez un moment où vous avez aidé quelqu'un.
+Quel est votre style vestimentaire préféré ?
+Quelle est votre tradition préférée du Nouvel An ?
+Parlez-moi d'un endroit que vous considérez comme votre sanctuaire.
+Quel est votre événement historique préféré ?
+Décrivez une journée qui a été particulièrement stressante pour vous.
+Quelle est votre expression ou phrase préférée ?
+Quel est votre genre littéraire préféré ?
+Parlez-moi d'une compétence que vous aimeriez maîtriser.
+Quelle est votre activité estivale préférée ?
+Décrivez un moment où vous avez pris une décision que vous avez regrettée.
+Quel est votre plat de petit-déjeuner préféré ?
+Parlez-moi d'un projet personnel qui vous tient à cœur.
+Quel est votre événement sportif préféré ?
+Quelle est votre expérience la plus marquante en matière de bénévolat ?
+Décrivez une soirée mémorable que vous avez passée.
+Quel est votre type de vacances préféré ?
+Parlez-moi d'une personne qui vous a surpris récemment.
+Quelle est votre journée de la semaine préférée et pourquoi ?
+Quel est votre endroit préféré pour écouter de la musique ?
+Décrivez une journée où vous avez été particulièrement productif(ve).
+Quelle est votre boisson préférée ?
+Parlez-moi d'un moment où vous avez été reconnaissant(e).
+Quel est votre monument préféré dans le monde ?
+Quelle est votre citation préférée ?
+Décrivez une leçon que vous avez apprise grâce à une expérience difficile.
+Quel est votre style de film préféré ?
+Parlez-moi d'une personne que vous avez récemment rencontrée et appréciée.
+Quel est votre passe-temps d'hiver préféré ?
+Décrivez un moment où vous avez été confronté(e) à un défi personnel.
+Quelle est votre période historique préférée ?
+Parlez-moi d'un film que vous avez vu plusieurs fois et que vous aimez toujours autant.
+Quel est votre souvenir d'école préféré ?
+Quelle est votre recette préférée ?
+Décrivez un jour férié que vous aimez particulièrement.
+Parlez-moi d'un projet que vous avez réussi.
+Quel est votre moment préféré de la journée ?
+Quelle est votre œuvre d'art préférée ?
+Décrivez une personne avec qui vous aimeriez échanger votre vie pour une journée.
+Quel est votre événement sportif annuel préféré ?
+Parlez-moi d'un livre que vous recommandez souvent à vos amis.
+Quel est votre endroit préféré pour vous détendre en plein air ?
+Décrivez une activité que vous aimez faire en famille.
+Quelle est votre saison de mode préférée ?
+Parlez-moi d'une personne célèbre que vous admirez.
+Quel est votre plat de fête préféré ?
+Décrivez une conversation qui vous a marqué.
+Quelle est votre période de l'année la plus occupée ?
+Parlez-moi d'un moment où vous avez été impressionné(e) par quelqu'un.
+Quel est votre lieu préféré pour faire du camping ?
+Décrivez une journée que vous aimeriez revivre.
+Quelle est votre pièce de théâtre préférée ?
+Parlez-moi d'un souvenir d'enfance dont vous vous souvenez avec tendresse.
+Quel est votre sport d'équipe préféré ?
+Décrivez un événement historique que vous aimeriez avoir vécu.
+Quelle est votre tradition de vacances préférée ?
+Parlez-moi d'une compétition que vous avez gagnée.
+Quel est votre vêtement ou accessoire préféré ?
+Décrivez une période où vous avez dû prendre soin de quelqu'un.
+Quelle est votre période de l'année préférée pour prendre des photos ?
+Parlez-moi d'un concert mémorable que vous avez vu.
+Quel est votre rêve pour votre famille ?
+Décrivez un moment où vous avez ressenti de la gratitude envers quelqu'un.
+Quelle est votre activité de groupe préférée ?
+Parlez-moi d'une fête surprise que vous avez organisée ou reçue.
+Quel est votre film d'animation préféré ?
+Décrivez une personne qui vous a beaucoup appris.
+Quelle est votre saison de l'année préférée pour les activités extérieures ?
+Parlez-moi d'un livre que vous avez lu et qui vous a beaucoup inspiré.
+Quel est votre plat réconfortant préféré ?
+Décrivez un moment où vous avez pris une décision importante sans hésitation.
+Quelle est votre célébration préférée de votre culture ?
+Parlez-moi d'une compétence que vous avez développée récemment.
+Quel est votre endroit préféré pour écrire ?
+Décrivez une personne qui vous a donné de bons conseils.
+Quelle est votre période de l'année préférée pour les escapades romantiques ?
+Parlez-moi d'une série télévisée que vous regardez actuellement et que vous aimez.
+Quel est votre fruit préféré ?
+Décrivez une journée où vous avez fait quelque chose de totalement nouveau pour vous.
+Quelle est votre soirée préférée de la semaine ?
+Parlez-moi d'une activité caritative à laquelle vous participez ou que vous soutenez.
+Quel est votre jeu vidéo préféré ?
+Décrivez une période où vous avez été impressionné(e) par quelqu'un d'autre.
+Quelle est votre plat de pâtes préféré ?
+Parlez-moi d'une personne âgée qui vous a beaucoup appris.
+Quel est votre événement familial préféré ?
+Décrivez une journée où vous avez fait preuve de créativité.
+Quelle est votre saison de l'année préférée pour les célébrations ?
+Parlez-moi d'un moment où vous avez surmonté une grande peur.
+Quel est votre style de décoration préféré ?
+Décrivez une expérience culinaire mémorable que vous avez eue.
+Quelle est votre période de l'année préférée pour les festivals ?
+Parlez-moi d'une personne que vous connaissez et que vous admirez pour sa persévérance.
+Quel est votre plat de fruits de mer préféré ?
+Décrivez un moment où vous avez dû prendre soin de quelqu'un malade.
+Quelle est votre période de l'année préférée pour les activités créatives ?
+Parlez-moi d'une journée où vous avez été particulièrement reconnaissant(e) pour votre santé.
+Quel est votre style de film préféré pour les soirées cinéma à la maison ?
+Décrivez une expérience de voyage que vous n'oublierez jamais.
+Quelle est votre période de l'année préférée pour la lecture ?
+Parlez-moi d'un moment où vous avez été touché(e) par la gentillesse de quelqu'un.
+Quel est votre légume préféré ?
+Décrivez une soirée passée à discuter avec des amis.
+Quelle est votre période de l'année préférée pour les projets à long terme ?
+Parlez-moi d'une personne qui vous a inspiré(e) à faire du bénévolat.
+Quel est votre plat de viande préféré ?
+Décrivez une journée où vous avez appris quelque chose de nouveau.
+Quelle est votre période de l'année préférée pour les vacances en famille ?
+Parlez-moi d'un moment où vous avez été surpris(e) par une révélation.
+Quel est votre style architectural préféré ?
+Décrivez une expérience où vous avez été témoin de quelque chose d'inattendu.
+Quelle est votre période de l'année préférée pour les rassemblements sociaux ?
+Parlez-moi d'une soirée où vous avez été inspiré(e) par un discours ou une présentation.
+Quel est votre plat végétarien préféré ?
+Décrivez une journée où vous avez accompli beaucoup de choses.
+Quelle est votre période de l'année préférée pour les escapades en solo ?
+Parlez-moi d'un moment où vous avez été touché(e) par la générosité de quelqu'un.
+Quel est votre style de musique préféré pour vous détendre ?
+Décrivez une expérience où vous avez aidé à organiser un événement.
+Quelle est votre période de l'année préférée pour les nouvelles rencontres ?
+Parlez-moi d'un moment où vous avez été encouragé(e) par le soutien d'un ami.
+Quel est votre plat de pizza préféré ?
+Décrivez une journée passée à explorer un nouveau lieu.
+Quelle est votre période de l'année préférée pour les projets personnels ?
+Parlez-moi d'une expérience où vous avez été confronté(e) à un préjugé.
+Quel est votre style de danse préféré ?
+Décrivez une soirée où vous avez ri jusqu'à en avoir mal au ventre.
+Quelle est votre période de l'année préférée pour les réflexions personnelles ?
+Parlez-moi d'une journée où vous avez été ému(e) par un geste d'amitié.
+Quel est votre plat de dessert préféré ?
+Décrivez une expérience où vous avez été impressionné(e) par les compétences de quelqu'un.
+Quelle est votre période de l'année préférée pour les changements professionnels ?
+Parlez-moi d'un moment où vous avez été touché(e) par la beauté de la nature.
+Quel est votre style de photographie préféré ?
+Décrivez une journée où vous avez dépassé vos propres attentes.
+Quelle est votre période de l'année préférée pour les projets communautaires ?
+Parlez-moi d'une expérience où vous avez été inspiré(e) par une performance artistique.
+Quel est votre plat mexicain préféré ?
+Décrivez une soirée où vous avez participé à une discussion animée.
+Quelle est votre période de l'année préférée pour les défis personnels ?
+Parlez-moi d'un moment où vous avez été ému(e) par un geste d'altruisme.
+Quel est votre style de jeu vidéo préféré ?
+Décrivez une journée où vous avez été surpris(e) par un événement inattendu.
+Quelle est votre période de l'année préférée pour les nouvelles expériences ?
+Parlez-moi d'une expérience où vous avez été encouragé(e) par un mentor.
+Quel est votre plat asiatique préféré ?
+Décrivez une soirée où vous avez apprécié un moment de solitude.
+Quelle est votre période de l'année préférée pour les engagements sociaux ?
+Parlez-moi d'un moment où vous avez été touché(e) par la gratitude de quelqu'un.
+Quel est votre style de jardinage préféré ?
+Décrivez une journée où vous avez été témoin d'un acte de gentillesse.
+Quelle est votre période de l'année préférée pour les nouvelles amitiés ?
+Parlez-moi d'une expérience où vous avez été inspiré(e) par une initiative communautaire.
+Quel est votre plat indien préféré ?
+Décrivez une soirée où vous avez été captivé(e) par une conversation animée.
+Quelle est votre période de l'année préférée pour les projets caritatifs ?
+Parlez-moi d'un moment où vous avez été touché(e) par la solidarité d'un groupe.
+Quel est votre style de cuisine préféré pour les dîners entre amis ?
+Décrivez une journée où vous avez exploré un nouveau passe-temps.
+Quelle est votre période de l'année préférée pour les voyages en famille ?
+Parlez-moi d'une expérience où vous avez été encouragé(e) par une réussite personnelle.
+Quel est votre plat italien préféré ?
+Décrivez une soirée où vous avez été émerveillé(e) par un spectacle.
+Quelle est votre période de l'année préférée pour les projets éducatifs ?
+Parlez-moi d'un moment où vous avez été touché(e) par la sagesse d'une personne âgée.
+Quel est votre style de décoration intérieure préféré ?
+Décrivez une journée où vous avez été inspiré(e) par une exposition artistique.
+Quelle est votre période de l'année préférée pour les réunions de famille ?
+Parlez-moi d'une expérience où vous avez été surpris(e) par la créativité d'un enfant.
+Quel est votre plat méditerranéen préféré ?
+Décrivez une soirée où vous avez été ému(e) par un geste d'entraide.
+Quelle est votre période de l'année préférée pour les projets professionnels ?
+Parlez-moi d'un moment où vous avez été touché(e) par la compassion d'un étranger.
+Quel est votre style de boissons préféré pour une soirée entre amis ?
+Décrivez une journée où vous avez apprécié la beauté d'un paysage naturel.
+Quelle est votre période de l'année préférée pour les découvertes personnelles ?
+Parlez-moi d'une expérience où vous avez été impressionné(e) par les compétences techniques de quelqu'un.
+Quel est votre plat grec préféré ?
+Décrivez une soirée où vous avez été captivé(e) par une pièce de théâtre.
+Quelle est votre période de l'année préférée pour les projets philanthropiques ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'altruisme d'une communauté.
+Quel est votre style de musique préféré pour une soirée romantique ?
+Décrivez une journée où vous avez été impressionné(e) par une exposition scientifique.
+Quelle est votre période de l'année préférée pour les projets de développement personnel ?
+Parlez-moi d'une expérience où vous avez été ému(e) par la solidarité entre collègues.
+Quel est votre plat thaïlandais préféré ?
+Décrivez une soirée où vous avez été inspiré(e) par une performance artistique.
+Quelle est votre période de l'année préférée pour les projets de rénovation ?
+Parlez-moi d'un moment où vous avez été touché(e) par la gratitude d'un bénéficiaire.
+Quel est votre style de photographie préféré pour capturer des paysages urbains ?
+Décrivez une journée où vous avez été ébloui(e) par la beauté architecturale.
+Quelle est votre période de l'année préférée pour les projets de recherche ?
+Parlez-moi d'une expérience où vous avez été surpris(e) par la richesse culturelle d'une région.
+Quel est votre plat japonais préféré ?
+Décrivez une soirée où vous avez été captivé(e) par un concert en plein air.
+Quelle est votre période de l'année préférée pour les projets de voyages d'études ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'innovation technologique.
+Quel est votre style de musique préféré pour une soirée entre amis ?
+Décrivez une journée où vous avez été impressionné(e) par une démonstration sportive.
+Quelle est votre période de l'année préférée pour les projets de développement communautaire ?
+Parlez-moi d'une expérience où vous avez été ému(e) par la passion d'un entrepreneur.
+Quel est votre plat chinois préféré ?
+Décrivez une soirée où vous avez été fasciné(e) par une pièce de théâtre interactive.
+Quelle est votre période de l'année préférée pour les projets de responsabilité sociale ?
+Parlez-moi d'un moment où vous avez été touché(e) par la générosité d'un sponsor.
+Quel est votre style de danse préféré pour une soirée dansante ?
+Décrivez une journée où vous avez été impressionné(e) par une exposition artistique contemporaine.
+Quelle est votre période de l'année préférée pour les projets de coaching professionnel ?
+Parlez-moi d'une expérience où vous avez été surpris(e) par la perspicacité d'un mentor.
+Quel est votre plat vietnamien préféré ?
+Décrivez une soirée où vous avez été inspiré(e) par une performance de danse traditionnelle.
+Quelle est votre période de l'année préférée pour les projets de mentorat ?
+Parlez-moi d'un moment où vous avez été touché(e) par la compréhension interculturelle.
+Quel est votre style de photographie préféré pour capturer des portraits ?
+Décrivez une journée où vous avez été émerveillé(e) par la beauté naturelle d'une réserve naturelle.
+Quelle est votre période de l'année préférée pour les projets de développement organisationnel ?
+Parlez-moi d'une expérience où vous avez été ému(e) par la solidarité d'une équipe de travail.
+Quel est votre plat libanais préféré ?
+Décrivez une soirée où vous avez été fasciné(e) par une performance de théâtre d'ombres.
+Quelle est votre période de l'année préférée pour les projets de formation continue ?
+Parlez-moi d'un moment où vous avez été touché(e) par la diversité culturelle d'une ville.
+Quel est votre style de musique préféré pour une soirée romantique ?
+Décrivez une journée où vous avez été captivé(e) par une exposition de sculpture contemporaine.
+Quelle est votre période de l'année préférée pour les projets de gestion de crise ?
+Parlez-moi d'une expérience où vous avez été impressionné(e) par la créativité d'un artiste numérique.
+Quel est votre plat marocain préféré ?
+Décrivez une soirée où vous avez été ému(e) par une pièce de théâtre classique.
+Quelle est votre période de l'année préférée pour les projets de gestion de la diversité ?
+Parlez-moi d'un moment où vous avez été touché(e) par la solidarité d'une équipe sportive.
+Quel est votre style de musique préféré pour une soirée entre amis ?
+Décrivez une journée où vous avez été impressionné(e) par une exposition d'art abstrait.
+Quelle est votre période de l'année préférée pour les projets de gestion du changement ?
+Parlez-moi d'une expérience où vous avez été ému(e) par la résilience d'une communauté.
+Quel est votre plat algérien préféré ?
+Décrivez une soirée où vous avez été fasciné(e) par une pièce de théâtre contemporaine.
+Quelle est votre période de l'année préférée pour les projets de développement durable ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'innovation technologique d'une entreprise.
+Quel est votre style de danse préféré pour une soirée festive ?
+Décrivez une journée où vous avez été captivé(e) par une exposition de photographie documentaire.
+Quelle est votre période de l'année préférée pour les projets de gestion de la performance ?
+Parlez-moi d'une expérience où vous avez été impressionné(e) par la passion d'un entrepreneur social.
+Quel est votre plat tunisien préféré ?
+Décrivez une soirée où vous avez été inspiré(e) par une performance de danse contemporaine.
+Quelle est votre période de l'année préférée pour les projets de gestion de l'innovation ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'engagement social d'une équipe.
+Quel est votre style de musique préféré pour une soirée décontractée ?
+Décrivez une journée où vous avez été ému(e) par une exposition d'art écologique.
+Quelle est votre période de l'année préférée pour les projets de gestion du talent ?
+Parlez-moi d'une expérience où vous avez été fasciné(e) par la performance d'un artiste de rue.
+Quel est votre plat égyptien préféré ?
+Décrivez une soirée où vous avez été captivé(e) par une pièce de théâtre expérimentale.
+Quelle est votre période de l'année préférée pour les projets de gestion du savoir ?
+Parlez-moi d'un moment où vous avez été touché(e) par la créativité d'une équipe artistique.
+Quel est votre style de musique préféré pour une soirée énergique ?
+Décrivez une journée où vous avez été impressionné(e) par une exposition de design industriel.
+Quelle est votre période de l'année préférée pour les projets de gestion de la diversité culturelle ?
+Parlez-moi d'une expérience où vous avez été ému(e) par l'entraide d'une communauté locale.
+Quel est votre plat sénégalais préféré ?
+Décrivez une soirée où vous avez été fasciné(e) par une pièce de théâtre immersive.
+Quelle est votre période de l'année préférée pour les projets de gestion de la réputation ?
+Parlez-moi d'un moment où vous avez été touché(e) par la solidarité d'une équipe universitaire.
+Quel est votre style de musique préféré pour une soirée en famille ?
+Décrivez une journée où vous avez été captivé(e) par une exposition de photographie artistique.
+Quelle est votre période de l'année préférée pour les projets de gestion de l'engagement des employés ?
+Parlez-moi d'une expérience où vous avez été impressionné(e) par la créativité d'une équipe marketing.
+Quel est votre plat camerounais préféré ?
+Décrivez une soirée où vous avez été ému(e) par une pièce de théâtre shakespearienne.
+Quelle est votre période de l'année préférée pour les projets de gestion de la satisfaction client ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'enthousiasme d'un groupe d'étudiants.
+Quel est votre style de musique préféré pour une soirée intime ?
+Décrivez une journée où vous avez été captivé(e) par une exposition d'art urbain.
+Quelle est votre période de l'année préférée pour les projets de gestion de la performance organisationnelle ?
+Parlez-moi d'une expérience où vous avez été fasciné(e) par la performance d'un artiste de rue.
+Quel est votre plat béninois préféré ?
+Décrivez une soirée où vous avez été inspiré(e) par une pièce de théâtre contemporaine.
+Quelle est votre période de l'année préférée pour les projets de gestion de la durabilité ?
+Parlez-moi d'un moment où vous avez été touché(e) par l'engagement communautaire d'une équipe.
+Quel est votre style de musique préféré pour une soirée relaxante ?
+Décrivez une journée où vous avez été ému(e) par une exposition d'art écologique.
+Quelle est votre période de l'année préférée pour les projets de gestion du changement organisationnel ?
+Parlez-moi d'une expérience où vous avez été impressionné(e) par la créativité d'une équipe de design.
+Quel est votre plat ivoirien préféré ?
+Décrivez une soirée où vous avez été captivé(e) par une pièce de théâtre immersive.
+Quelle est votre période de l'année préférée pour les projets de gestion du savoir-faire ?
+Parlez-moi d'un moment où vous avez été touché(e) par la solidarité d'une équipe sportive.
+Quel est votre style de musique préféré pour une soirée animée ?
+Décrivez une journée où vous avez été fasciné(e) par une exposition de design industriel.
+Quelle est votre période de l'année préférée pour les projets de gestion de la diversité culturelle ?
+Parlez-moi d'une expérience où vous avez été ému(e) par l'entraide d'une communauté locale.
+Quel est votre plat sénégalais préféré ?

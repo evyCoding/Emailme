@@ -7,6 +7,7 @@ smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 from_email = 'emailme.po@gmail.com'
 password = 'tzep izyb nvhi ryla '
+
 load_dotenv()
 MONGODB_URI = os.environ.get(
     'mongodb://127.0.0.1:27017/mongo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6')
@@ -15,14 +16,14 @@ db = client['Emailme']
 cursor = db['infos']
 
 
-def SendMail(Name, Email):
+def SendMail(Name, Email, content):
     to_email = Email
     msg = MIMEMultipart()
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = Name + ' Daily email'
-    Body = "What do you like about Hack club?"
-    msg.attach(MIMEText(Body, 'plain'))
+    Body = content
+    msg.attach(MIMEText(Body, 'plain', 'utf-8'))
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()
@@ -44,10 +45,11 @@ if __name__ == "__main__":
         'dbIds': [],
         'dbNames': [],
         'dbEmails': [],
-        'dbAnswers': []
+        'dbAnswers': [],
+        'dbLang': []
     }
 
     Main(dbDict, cursor)
 
     for i in range(Count(cursor)):
-        SendMail(dbDict['dbNames'][i], dbDict['dbEmails'][i])
+        SendMail(dbDict['dbNames'][i], dbDict['dbEmails'][i], getQuestion(dbDict['dbLang'][i]))

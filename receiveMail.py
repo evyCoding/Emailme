@@ -29,7 +29,7 @@ def get_decoded_header(header_value):
     return decoded_header
 
 
-def getEmails(user, answer):
+def getEmails(user, answer, i):
     """Fetch emails from the inbox and filter by user in subject."""
     for email_id in email_ids:
         status, msg_data = imap.fetch(email_id, "(RFC822)")
@@ -46,11 +46,11 @@ def getEmails(user, answer):
                             content_disposition = str(part.get("Content-Disposition"))
                             if content_type == "text/plain" and "attachment" not in content_disposition:
                                 body = part.get_payload(decode=True).decode()
-                                answer.append(body)
+                                answer[i] += body
                     else:
                         if msg.get_content_type() == "text/plain":
                             body = msg.get_payload(decode=True).decode()
-                            answer.append(body)
+                            answer[i] += body
 
 
 if __name__ == "__main__":
@@ -62,15 +62,9 @@ if __name__ == "__main__":
     }
 
     Main(dbDict, cursor)
-
     for i in range(Count(cursor)):
-        getEmails(dbDict['dbNames'][i], dbDict['dbAnswers'])
-
-    for Value in dbDict['dbAnswers']:
-        print(Value)
+        getEmails(dbDict['dbNames'][i], dbDict['dbAnswers'], i)
 
     for i in range(Count(cursor)):
         UpdateAnswers(dbDict['dbIds'][i], dbDict['dbAnswers'][i], cursor)
 
-
-imap.logout()
