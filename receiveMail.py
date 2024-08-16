@@ -5,7 +5,7 @@ from writeAndReadMethods import *
 
 
 imap = imaplib.IMAP4_SSL("imap.gmail.com")
-imap.login("emailme.po@gmail.com", "tzep izyb nvhi ryla")
+imap.login("test@gmail.com", "password")
 imap.select("inbox")
 
 
@@ -15,7 +15,7 @@ email_ids.reverse()
 
 load_dotenv()
 MONGO_URI = os.environ.get(
-    'mongodb://127.0.0.1:27017/mongo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6')
+    'link to the database')
 Client = MongoClient(MONGO_URI)
 db = Client['Emailme']
 cursor = db['infos']
