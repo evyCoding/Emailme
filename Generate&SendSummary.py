@@ -4,11 +4,11 @@ from sendMail import *
 from receiveMail import *
 
 client = OpenAI(
-    api_key="NNAD6QIHFB0QW6CD9VYQG25LL1LXXP96M9DG6LNLL9VQG1B3V1IYLLCHVE434OMP",
+    api_key="api key",
     base_url='https://jamsapi.hackclub.dev/openai')
 
 imap = imaplib.IMAP4_SSL("imap.gmail.com")
-imap.login("emailme.po@gmail.com", "tzep izyb nvhi ryla")
+imap.login("test@gmail.com", "password")
 imap.select("inbox")
 status, messages = imap.search(None, "ALL")
 email_ids = messages[0].split()
@@ -16,11 +16,11 @@ email_ids.reverse()
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-from_email = 'emailme.po@gmail.com'
-password = 'tzep izyb nvhi ryla '
+from_email = 'test@gmail.com'
+password = 'password'
 
 load_dotenv()
-MONGO_URI = os.environ.get('mongodb://127.0.0.1:27017/mongo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.2.6')
+MONGO_URI = os.environ.get('link to the database')
 Client = MongoClient(MONGO_URI)
 db = Client['Emailme']
 cursor = db['infos']
